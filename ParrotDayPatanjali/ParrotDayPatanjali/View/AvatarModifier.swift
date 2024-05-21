@@ -12,10 +12,13 @@ struct AvatarModifier: ViewModifier {
     let backgroundColor: Color
     
     func body(content: Content) -> some View {
-        content
-            .background(backgroundColor)
-            .frame(width: 298, height: 298)
-            .clipShape(Circle())
+        Circle()
+            .fill(backgroundColor)
+            .frame(width: 198, height: 198)
+            .overlay(
+              content
+                .foregroundColor(.white)
+            )
     }
 }
 

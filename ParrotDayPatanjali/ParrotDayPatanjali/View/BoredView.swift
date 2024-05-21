@@ -18,10 +18,10 @@ struct BoredView: View {
                     let bored = try await isAViewModel.suggest()
                 }
             }
+            .avatar(backgroundColor: .purple)
             Text(isAViewModel.bored.activity!)
+            .avatar(backgroundColor: .cyan)
         }
-        .avatar(backgroundColor: .red)
-            
     }
 }
 
