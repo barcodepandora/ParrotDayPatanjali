@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "548CA26F-67A7-4BAB-8F5E-BCC38BF912DA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7816D45-2494-4337-80FA-3AC1B20E6F9C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ParrotDayPatanjali/UseCase/BoredUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "suggest()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5771E01-0C2B-48D9-AF7D-C1CBEFC638CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ParrotDayPatanjali/UseCase/BoredUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "suggest()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D5771E01-0C2B-48D9-AF7D-C1CBEFC638CB - a8ca5bbb0207d4f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ParrotDayPatanjali.BoredUseCase.suggest() async throws -&gt; ParrotDayPatanjali.Bored"
+                  moduleName = "ParrotDayPatanjali"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juanmanuelmoreno/Documents/ParrotDayPatanjali/ParrotDayPatanjali/ParrotDayPatanjali/ParrotDayPatanjali/UseCase/BoredUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "D5771E01-0C2B-48D9-AF7D-C1CBEFC638CB - 4ceddb46c577ff0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for ParrotDayPatanjali.BoredUseCase.suggest() async throws -&gt; ParrotDayPatanjali.Bored"
+                  moduleName = "ParrotDayPatanjali"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juanmanuelmoreno/Documents/ParrotDayPatanjali/ParrotDayPatanjali/ParrotDayPatanjali/ParrotDayPatanjali/UseCase/BoredUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "D5771E01-0C2B-48D9-AF7D-C1CBEFC638CB - 623be28e9c2168f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ParrotDayPatanjali.BoredUseCase.suggest() async throws -&gt; ParrotDayPatanjali.Bored"
+                  moduleName = "ParrotDayPatanjali"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juanmanuelmoreno/Documents/ParrotDayPatanjali/ParrotDayPatanjali/ParrotDayPatanjali/ParrotDayPatanjali/UseCase/BoredUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "201">
+               </Location>
+               <Location
+                  uuid = "D5771E01-0C2B-48D9-AF7D-C1CBEFC638CB - b9543e18ef4dcef3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ParrotDayPatanjali.BoredUseCase.suggest() async throws -&gt; ParrotDayPatanjali.Bored"
+                  moduleName = "ParrotDayPatanjali"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juanmanuelmoreno/Documents/ParrotDayPatanjali/ParrotDayPatanjali/ParrotDayPatanjali/ParrotDayPatanjali/UseCase/BoredUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "66">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

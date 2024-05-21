@@ -14,6 +14,12 @@
 		565257AE2BFCD28F00872FCA /* ParrotDayPatanjaliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565257AD2BFCD28F00872FCA /* ParrotDayPatanjaliTests.swift */; };
 		565257B82BFCD28F00872FCA /* ParrotDayPatanjaliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565257B72BFCD28F00872FCA /* ParrotDayPatanjaliUITests.swift */; };
 		565257BA2BFCD29000872FCA /* ParrotDayPatanjaliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565257B92BFCD28F00872FCA /* ParrotDayPatanjaliUITestsLaunchTests.swift */; };
+		565257C82BFCE16900872FCA /* BoredUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565257C72BFCE16900872FCA /* BoredUseCase.swift */; };
+		565257CB2BFCE1A600872FCA /* Bored.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565257CA2BFCE1A600872FCA /* Bored.swift */; };
+		565257D02BFCE6E200872FCA /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565257CF2BFCE6E200872FCA /* APIRouter.swift */; };
+		565257D32BFCE7F900872FCA /* BoredViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565257D22BFCE7F900872FCA /* BoredViewModel.swift */; };
+		565257D52BFCE91F00872FCA /* BoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565257D42BFCE91F00872FCA /* BoredView.swift */; };
+		565257D72BFCEFBF00872FCA /* AvatarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565257D62BFCEFBF00872FCA /* AvatarModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,13 @@
 		565257B32BFCD28F00872FCA /* ParrotDayPatanjaliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrotDayPatanjaliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		565257B72BFCD28F00872FCA /* ParrotDayPatanjaliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotDayPatanjaliUITests.swift; sourceTree = "<group>"; };
 		565257B92BFCD28F00872FCA /* ParrotDayPatanjaliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotDayPatanjaliUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		565257C72BFCE16900872FCA /* BoredUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredUseCase.swift; sourceTree = "<group>"; };
+		565257CA2BFCE1A600872FCA /* Bored.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bored.swift; sourceTree = "<group>"; };
+		565257CD2BFCE5A200872FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		565257CF2BFCE6E200872FCA /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		565257D22BFCE7F900872FCA /* BoredViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredViewModel.swift; sourceTree = "<group>"; };
+		565257D42BFCE91F00872FCA /* BoredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredView.swift; sourceTree = "<group>"; };
+		565257D62BFCEFBF00872FCA /* AvatarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +107,12 @@
 		5652579B2BFCD28C00872FCA /* ParrotDayPatanjali */ = {
 			isa = PBXGroup;
 			children = (
+				565257CE2BFCE6BC00872FCA /* Networking */,
+				565257C92BFCE19500872FCA /* Model */,
+				565257C62BFCE14600872FCA /* UseCase */,
+				565257D12BFCE7E700872FCA /* ViewModel */,
+				565257CC2BFCE3F400872FCA /* View */,
+				565257CD2BFCE5A200872FCA /* Info.plist */,
 				5652579C2BFCD28C00872FCA /* ParrotDayPatanjaliApp.swift */,
 				5652579E2BFCD28C00872FCA /* ContentView.swift */,
 				565257A02BFCD28F00872FCA /* Assets.xcassets */,
@@ -125,6 +144,47 @@
 				565257B92BFCD28F00872FCA /* ParrotDayPatanjaliUITestsLaunchTests.swift */,
 			);
 			path = ParrotDayPatanjaliUITests;
+			sourceTree = "<group>";
+		};
+		565257C62BFCE14600872FCA /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				565257C72BFCE16900872FCA /* BoredUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		565257C92BFCE19500872FCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				565257CA2BFCE1A600872FCA /* Bored.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		565257CC2BFCE3F400872FCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				565257D42BFCE91F00872FCA /* BoredView.swift */,
+				565257D62BFCEFBF00872FCA /* AvatarModifier.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		565257CE2BFCE6BC00872FCA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				565257CF2BFCE6E200872FCA /* APIRouter.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		565257D12BFCE7E700872FCA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				565257D22BFCE7F900872FCA /* BoredViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +317,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565257C82BFCE16900872FCA /* BoredUseCase.swift in Sources */,
+				565257D32BFCE7F900872FCA /* BoredViewModel.swift in Sources */,
+				565257D02BFCE6E200872FCA /* APIRouter.swift in Sources */,
+				565257D52BFCE91F00872FCA /* BoredView.swift in Sources */,
 				5652579F2BFCD28C00872FCA /* ContentView.swift in Sources */,
+				565257D72BFCEFBF00872FCA /* AvatarModifier.swift in Sources */,
+				565257CB2BFCE1A600872FCA /* Bored.swift in Sources */,
 				5652579D2BFCD28C00872FCA /* ParrotDayPatanjaliApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +491,8 @@
 				DEVELOPMENT_TEAM = F6KDBC2B2W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParrotDayPatanjali/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +522,8 @@
 				DEVELOPMENT_TEAM = F6KDBC2B2W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParrotDayPatanjali/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

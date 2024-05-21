@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ParrotDayPatanjaliApp: App {
+    
+    @StateObject private var isAViewModel = BoredViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BoredView().environmentObject(isAViewModel)
         }
     }
 }

@@ -14,6 +14,11 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            Button("Go") {
+                Task {
+                    try await print(BoredUseCase().suggest())
+                }
+            }
         }
         .padding()
     }
